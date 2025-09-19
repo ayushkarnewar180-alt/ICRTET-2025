@@ -38,6 +38,9 @@ export default function Hero() {
             <br />
             <span className="font-semibold">In collaboration with AICTE and Elsevier</span>
           </p>
+          <div className="CMT-acknowledgment">
+            <marquee>The Microsoft CMT service was used for managing the peer-reviewing process for this conference. This service was provided for free by Microsoft and they bore all expenses, including costs for Azure cloud services as well as for software development and support.</marquee>
+          </div>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link to={"submit-paper"}>
             <Button
